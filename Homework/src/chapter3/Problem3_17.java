@@ -42,31 +42,31 @@ public class Problem3_17 {
 	private static void winDecider(boolean win) {
 		//Here we decide the winner
 		if (win)
-			System.out.println(". You won");
+			System.out.println("...You won");
 		else
-			System.out.println(". You lose");
+			System.out.println("...You lose");
 	}
 
 
 	private static void userInput(int user) {
 		//Here we prompt for user input
-		System.out.print(" You are ");
+		System.out.print("You are ");
 		switch (user)
 		{
-		case 0: System.out.print("scissor"); break;
-		case 1: System.out.print("rock"); break;
-		case 2: System.out.print("paper ");
+		case 0: System.out.print("scissor, "); break;
+		case 1: System.out.print("rock, "); break;
+		case 2: System.out.print("paper, ");
 		}
 	}
 
 	private static void computerInput(int computer) {
 		//Here we get the computers input
-		System.out.print("The computer is ");
+		System.out.print("the computer is ");
 		switch (computer)
 		{
-		case 0: System.out.print("scissor."); break;
-		case 1: System.out.print("rock."); break;
-		case 2: System.out.print("paper.");
+		case 0: System.out.print("scissor"); break;
+		case 1: System.out.print("rock"); break;
+		case 2: System.out.print("paper");
 		}
 
 
