@@ -1,6 +1,4 @@
-package chapter5;
-
-
+package bonus;
 
 public class Bonus1 {
 

@@ -1,4 +1,4 @@
-package chapter5;
+package bonus;
 
 import java.util.Random;
 
