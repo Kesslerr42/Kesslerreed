@@ -36,7 +36,7 @@ public class Problem2 {
 
 			/** Method getresult returns the result */
 			public static int getresult(int point) {
-				// If point is 2, 3, or 12 retrun 0, If point is 7 or 11 return 1
+				// If point is 2, 3, or 12 return 0, If point is 7 or 11 return 1
 				switch (point) {
 					case 2  : 
 					case 3  :
