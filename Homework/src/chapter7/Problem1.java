@@ -6,7 +6,7 @@ public class Problem1 {
 		// randomly generates an array of 100,000
 				// integers and a key
 				int num;
-				int[] numbers = new int[10000];
+				int[] numbers = new int[1000000];
 				for (int i = 0; i < numbers.length; i++) {
 					numbers[i] = getRandomInt();
 				}
