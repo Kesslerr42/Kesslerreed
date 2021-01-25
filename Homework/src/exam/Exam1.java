@@ -36,6 +36,7 @@ public class Exam1 {
 
 	private static int getRuleSelection() {
 		return (int)(Math.random()*4+1);
+		
 	}
 
 	private static int runArithmeticSequence() {
