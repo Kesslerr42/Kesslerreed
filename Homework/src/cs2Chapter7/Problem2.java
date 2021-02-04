@@ -19,8 +19,10 @@ public class Problem2 {
 		// display the sorted numbers
 		for (double e: numbers) {
 			System.out.print(e + " ");
+			
 		}
 		System.out.println();
+		input.close();
 	}
 
 	/** bubbleSort */
@@ -30,12 +32,12 @@ public class Problem2 {
 
 		do {
 			swapped = false; 
-			for (int i = 0; i < list.length - 1; i++) {
+			for (int workingIndex = 0; workingIndex < list.length - 1; workingIndex++) {
 				// If a neighboring pair is not in order, swap values
-				if (list[i] > list[i + 1]) {
-					temp = list[i];
-					list[i] = list[i + 1];
-					list[i + 1] = temp;
+				if (list[workingIndex] > list[workingIndex + 1]) {
+					temp = list[workingIndex];
+					list[workingIndex] = list[workingIndex + 1];
+					list[workingIndex + 1] = temp;
 					swapped = true;
 				}
 			}
