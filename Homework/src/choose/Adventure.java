@@ -43,6 +43,7 @@ public class Adventure {
 		        } else if (Pantry.equalsIgnoreCase("run away")) {
 		            System.out.println("  ");
 		            System.out.println("You died because your too slow & can't run");
+		            keyboard.close();
 		        }
 		    }
 		}
