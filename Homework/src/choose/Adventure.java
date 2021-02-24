@@ -9,7 +9,7 @@ public class Adventure {
 
 		String Go, Look, Pantry, Eat;
 
-		System.out.println(" WELCOME TO MY TINY ADVENTURE");
+		System.out.println(" WELCOME TO MY ADVENTURE");
 		System.out.println("  ");
 		System.out.println(" You have made your way to the house of Lord James Longington, a man long past our time, as the house is rumored to be haunted. Would you like to go 'upstairs' or into the 'kitchen'? ");
 		System.out.print("> ");
