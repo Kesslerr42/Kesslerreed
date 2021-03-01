@@ -3,8 +3,8 @@ package exam;
 public class Exam3 {
 
 	public static void main(String[] args) {
-			int range = 10000;
-			int primes = 0;
+			int range = 100_000_000;
+			int primes = 1;
 			for (int check = 2; check < range; check++)
 			{
 				
